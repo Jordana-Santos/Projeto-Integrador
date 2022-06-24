@@ -1,21 +1,18 @@
-# TRABALHO DE PI:  Título do Trabalho
-Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
+# TRABALHO DE PI: Projeto Athena
+Trabalho desenvolvido durante a disciplina de Desenvolvimento de Sistemas e Projeto Integrador
 
 # Sumário
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
-...
+Breno Amâncio Affonso: email_primeiro_componente@dominio.com<br>
+Débora Cristina de Souza Buzatto: email_segundo_componente@dominio.com<br>
+Jordana Lourenço Santos: jordanalsantos@hotmail.com<br>
 
 ### 2.MINIMUNDO<br>
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas, se necessário resumir para justar)
-Entrevista com o usuário e identificação dos requisitos.(quando for o caso de sistemas com cliente real)
-Descrição textual das regras de negócio definidas como um subconjunto do mundo real cujos elementos são propriedades que desejamos incluir, processar, armazenar, gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
-<br>
 
-> O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes..
+O sistema proposto, terá aqui as características aqui descritas. Um cliente solicitou um sistema para uma biblioteca, onde há empréstimos de livros para os alunos, adição e exclusão de livros disponíveis, além da classificação e organização entre eles. O sistema então contém livros que são emprestados a alunos e possuem as seguintes características: título do livro, ISBN, data de doação a instituição, ano de lançamento, editora e um autor, este último possuindo uma nacionalidade. A organização destes livros se dá com base em gêneros, que possuem códigos e descrições específicas, além de existirem sem nenhum livro disponível englobado por ele.
+O sistema também abrange o cadastro de usuários para uma posterior identificação, contendo nome completo, data de nascimento, e-mail, senha e um código para diferenciar entre aluno e funcionário. Estes alunos podem entrar em contato com a instituição por meio da página “contato”, fornecendo seu nome, e-mail, motivo (entre sugestão, crítica e solicitação), além de um campo não obrigatório para telefone. Cada aluno pode ter mais de um contato, mas um contato só existe com apenas um usuário. O aluno também pode avaliar os livros da biblioteca, deixando registrado o nome do livro, um comentário sobre e uma nota entre 1 e 5. Um livro possui apenas uma avaliação por usuário, mas um usuário pode avaliar mais de um livro.
  
  
 ### 3.PMC<br>
