@@ -9,6 +9,7 @@ Breno Amâncio Affonso: brenoaaffonso@gmail.com <br>
 Débora Cristina de Souza Buzatto: deborabuzatto27@gmail.com <br>
 Jordana Lourenço Santos: jordanals0519@gmail.com
 
+
 ### 2.MINIMUNDO<br>
 
 O sistema proposto, terá as características aqui descritas. Um cliente solicitou um sistema para uma biblioteca, onde há empréstimos de livros para os alunos, adição e exclusão de livros disponíveis, além da classificação e organização entre eles. O sistema então contém livros que são emprestados a alunos e possuem as seguintes características: título do livro, ISBN, data de lançamento, editora e um autor, este último possuindo uma nacionalidade. A organização destes livros se dá com base em gêneros, que possuem códigos e descrições específicas, além de existirem sem nenhum livro disponível englobado por ele.
@@ -43,14 +44,10 @@ b) inclusão das Histórias de usuário desenvolvidas pelo grupo<br>
 * Relatório com a quantidade de empregados por cada departamento incluindo as seguintes informações: nome do departamento, supervisor e quantidade de empregados alocados no departamento.
 * Relatório de supervisores e supervisionados incluindo as seguintes informações: nome do supervisor e nome do supervisionado.
 
-Ideias de Relatórios:
-livros locados
-alunos
-avaliações
-livros
+
+> Ideias de Relatórios: livros locados, alunos, avaliações, livros
 
  
-
 ### 6 TABELA DE DADOS DO SISTEMA:
     A) Esta tabela deve conter **todos os atributos do sistema** e um mínimo de 10 linhas/registros de dados.
     B) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
@@ -75,7 +72,7 @@ livros
     STATUS_LOCA:
     CATEGORIA:
     PESSOA:
-    TIPO_PESSOA
+    TIPO_PESSOA:
     
     
     EXEMPLO:
