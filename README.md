@@ -65,21 +65,19 @@ b) inclusão das Histórias de usuário desenvolvidas pelo grupo<br>
     
 #### 7.1 Descrição dos dados <br>
     [objeto]: [descrição do objeto]
-    
-EDITORA: Tabela que armazena as informações relativas à editora<br>
-LIVRO: Tabela que armazena as informações relativas aos livros<br>
-AUTOR: Tabela que armazena as informações relativas ao autor<br>
-STATUS_LOCA: Tabela que armazena as informações relativas ao status de locação<br>
-CATEGORIA: Tabela que armazena as informações relativas à categoria do livro<br>
-PESSOA: Tabela que armazena as informações relativas à pessoa ou usuário<br>
-TIPO_PESSOA: Tabela que armazena as informações relativas ao tipo de usuário<br>
-    
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+##### Tabelas <br>
+EDITORA: Tabela que armazena as informações relativas à editora.<br>
+LIVRO: Tabela que armazena as informações relativas aos livros.<br>
+AUTOR: Tabela que armazena as informações relativas ao autor.<br>
+STATUS_LOCA: Tabela que armazena as informações relativas ao status de locação.<br>
+CATEGORIA: Tabela que armazena as informações relativas à categoria do livro.<br>
+PESSOA: Tabela que armazena as informações relativas à pessoa ou usuário.<br>
+TIPO_PESSOA: Tabela que armazena as informações relativas ao tipo de usuário.<br>
 
---------------------------------------------------------------------------------------------------------
+##### Atributos
+
+
+-----
 
 ### 8	RASTREABILIDADE DOS ARTEFATOS<br>
         a) Historia de usuários vs protótipo (mockup)
