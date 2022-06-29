@@ -63,16 +63,16 @@ b) inclusão das Histórias de usuário desenvolvidas pelo grupo<br>
 ![Alt text](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/modelo_conceitual.jpeg)
       
     
-#### 7.1 Descrição dos dados 
+#### 7.1 Descrição dos dados <br>
     [objeto]: [descrição do objeto]
     
-    EDITORA: 
-    LIVRO:
-    AUTOR:
-    STATUS_LOCA:
-    CATEGORIA:
-    PESSOA:
-    TIPO_PESSOA:
+EDITORA: Tabela que armazena as informações relativas à editora<br>
+LIVRO: Tabela que armazena as informações relativas aos livros<br>
+AUTOR: Tabela que armazena as informações relativas ao autor<br>
+STATUS_LOCA: Tabela que armazena as informações relativas ao status de locação<br>
+CATEGORIA: Tabela que armazena as informações relativas à categoria do livro<br>
+PESSOA: Tabela que armazena as informações relativas à pessoa ou usuário<br>
+TIPO_PESSOA: Tabela que armazena as informações relativas ao tipo de usuário<br>
     
     
     EXEMPLO:
