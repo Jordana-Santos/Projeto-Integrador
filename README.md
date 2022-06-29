@@ -69,6 +69,15 @@ livros
 #### 7.1 Descrição dos dados 
     [objeto]: [descrição do objeto]
     
+    EDITORA: 
+    LIVRO:
+    AUTOR:
+    STATUS_LOCA:
+    CATEGORIA:
+    PESSOA:
+    TIPO_PESSOA
+    
+    
     EXEMPLO:
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
     CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
