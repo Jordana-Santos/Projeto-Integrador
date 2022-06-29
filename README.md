@@ -1,46 +1,39 @@
-# TRABALHO DE PI: Título do Trabalho
-Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
+# TRABALHO DE PI: Projeto Athena
+Trabalho desenvolvido durante a disciplina de Desenvolvimento de Sistemas e Projeto Integrador
 
 # Sumário
 
 ### 1. COMPONENTES<br>
-Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com
-segundo_componente_do_grupo:email_segundo_componente@dominio.com
-...
+Integrantes do grupo:<br>
+Breno Amâncio Affonso: brenoaaffonso@gmail.com <br>
+Débora Cristina de Souza Buzatto: deborabuzatto27@gmail.com <br>
+Jordana Lourenço Santos: jordanals0519@gmail.com
 
 ### 2.MINIMUNDO<br>
 
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas, se necessário resumir para justar) Entrevista com o usuário e identificação dos requisitos.(quando for o caso de sistemas com cliente real) Descrição textual das regras de negócio definidas como um subconjunto do mundo real cujos elementos são propriedades que desejamos incluir, processar, armazenar, gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
+O sistema proposto, terá aqui as características aqui descritas. Um cliente solicitou um sistema para uma biblioteca, onde há empréstimos de livros para os alunos, adição e exclusão de livros disponíveis, além da classificação e organização entre eles. O sistema então contém livros que são emprestados a alunos e possuem as seguintes características: título do livro, ISBN, data de doação a instituição, ano de lançamento, editora e um autor, este último possuindo uma nacionalidade. A organização destes livros se dá com base em gêneros, que possuem códigos e descrições específicas, além de existirem sem nenhum livro disponível englobado por ele.
+O sistema também aborda o cadastro de usuários para uma posterior identificação, contendo nome completo, data de nascimento, e-mail, senha e um código para diferenciar entre aluno e funcionário. Estes alunos podem entrar em contato com a instituição por meio da página “contato”, fornecendo seu nome, e-mail, motivo (entre sugestão, crítica e solicitação), além de um campo não obrigatório para telefone. Cada aluno pode ter mais de um contato, mas um contato só existe com apenas um usuário. O aluno também pode avaliar os livros da biblioteca, deixando registrado o nome do livro, um comentário sobre e uma nota entre 1 e 5. Um livro possui apenas uma avaliação por usuário, mas um usuário pode avaliar mais de um livro.
 
-> O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes..>
  
  
 ### 3.PMC<br>
-![Exemplo de PMC](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/PMC.jpg?raw=true "PMC")
 a) inclusão do PMC desenvolvido pelo grupo <br>
+![Arquivo PDF do PMC de Breno, Débora e Jordana](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/PMC_biblioteca.pdf)
 
 
 ### 4.Personas e Histórias de usuário<br>
-<img src="https://neilpatel.com/wp-content/uploads/2019/07/exemplo-carlos.png" Personas src="https://neilpatel.com/wp-content/uploads/2019/07/exemplo-carlos.png" width="500" height="500" /> <br>
-a) inclusão dos Persons desenvolvidos pelo grupo<br>
-<br>
-<img src="https://miro.medium.com/max/1400/1*r5GVnOvqpMdxnGUYNRXqbg.png" UserStory src="https://miro.medium.com/max/1400/1*r5GVnOvqpMdxnGUYNRXqbg.png" width="500" height="300" /> <br>
-b) inclusão das Histórias de usuário desenvolvidas pelo grupo
-<br>
+
+a) inclusão dos Personas desenvolvidos pelo grupo<br>
+
+b) inclusão das Histórias de usuário desenvolvidas pelo grupo<br>
 
 
 ### 5.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser desenvolvidas. O princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas e/ou descartadas <br>
-
-Sugestão: https://balsamiq.com/products/mockups/<br>
-
-![Alt text](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/balsamiq.png?raw=true "Title")
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
+![Arquivo PDF do Protótipo do Projeto Integrador](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/prototipoPI.pdf)
 
 
 #### 5.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
+    a) O sistema proposto poderá fornecer quais tipos de relatórios e informações? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
 > A Empresa DevCom precisa inicialmente dos seguintes relatórios:
@@ -49,6 +42,13 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 * Relatório de empregados com dependentes incluindo as seguintes informações: rg do empregado, nome do empregado, nome do dependente, tipo de relação, data de nascimento do dependente e sexo do dependente.
 * Relatório com a quantidade de empregados por cada departamento incluindo as seguintes informações: nome do departamento, supervisor e quantidade de empregados alocados no departamento.
 * Relatório de supervisores e supervisionados incluindo as seguintes informações: nome do supervisor e nome do supervisionado.
+
+Ideias de Relatórios:
+livros locados
+alunos
+avaliações
+livros
+
  
 
 ### 6 TABELA DE DADOS DO SISTEMA:
@@ -65,7 +65,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
  ### 7.MODELO CONCEITUAL<br>
     A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)
     B) O mínimo de entidades do modelo conceitual pare este trabalho será igual a 4.
-        * informe quais são as 3 principais entidades do sistema em densenvolvimento
+        * informe quais são as 3 principais entidades do sistema em desenvolvimento
  <br>(se houverem mais de 3 entidades, pense na importância da entidade para o sistema)       
     C) Principais fluxos de informação/entidades do sistema (mínimo 2). <br>Dica: normalmente estes fluxos estão associados as tabelas que conterão maior quantidade de dados 
     D) Qualidade e Clareza
