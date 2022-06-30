@@ -83,18 +83,18 @@ data_publicacao: campo que armazena a data de publicação de cada livro.<br>
 ISBN: campo que armazena o International Standard Book Number (Padrão Internacional de Numeração de Livro) de cada livro.<br>
 codigo_autor: campo que armazena o código de cada autor.<br>
 nacionalidade: campo que armazena a nacionalidade de cada autor.<br>
-* codigo_status: campo que armazena o código de cada status de locação.<br>
-* dsc_status: campo que armazena a descrição do status de cada status de locação.<br>
+codigo_status: campo que armazena o código de cada status de locação.<br>
+dsc_status: campo que armazena a descrição do código de cada status de locação.<br>
 codigo_cat: campo que armazena o código de cada categoria.<br>
-* genero: campo que armazena o gênero de cada livro.<br>
+dsc_genero: campo que armazena a descrição do código (o nome do gênero) de cada categoria.<br>
 codigo_pessoa: campo que armazena o código de cada pessoa.<br>
 data_nasc: campo que armazena a data de nascimento de cada pessoa.<br>
 senha: campo que armazena a senha de cada pessoa.<br>
 email: campo que armazena o email de cada pessoa.<br>
 tipo: campo que armazena o tipo de usuário de cada pessoa.<br>
 username: campo que armazena o nome de usuário de cada pessoa.<br>
-* codigo_tipo: campo que armazena o código de cada tipo de usuário.<br>
-* dsc_tipo: campo que armazena a descrição de cada tipo.<br>
+codigo_tipo: campo que armazena o código de cada tipo de usuário.<br>
+dsc_tipo: campo que armazena a descrição do código de cada tipo de usuário.<br>
 cod_locacao: campo que armazena o código de cada locação.<br>
 data_locacao: campo que armazena a data de cada locação.<br>
 status: campo que armazena o status de cada locação.<br>
