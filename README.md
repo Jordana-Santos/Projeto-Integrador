@@ -48,15 +48,10 @@ b) inclusão das Histórias de usuário desenvolvidas pelo grupo<br>
 > Ideias de Relatórios: livros locados, alunos, avaliações, livros
 
  
-### 6 TABELA DE DADOS DO SISTEMA:
-    A) Esta tabela deve conter **todos os atributos do sistema** e um mínimo de 10 linhas/registros de dados.
-    B) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
-    C) Após criada esta tabela não deve ser modificada, pois será comparada com os resultados finais na conclusão do trabalho
-    
-![Tabela de dados do Projeto Athena](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Planilha%20de%20dados%20Projeto%20Integrador%20-%20P%C3%A1gina1.pdf)
+### 6 TABELA DE DADOS DO SISTEMA: <br>
 
+![Tabela de dados do Projeto Athena](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Planilha%20de%20dados%20Projeto%20Integrador%20-%20P%C3%A1gina1%20(1).pdf)
 
- 
  
  ### 7.MODELO CONCEITUAL<br>
             
@@ -64,7 +59,6 @@ b) inclusão das Histórias de usuário desenvolvidas pelo grupo<br>
       
     
 #### 7.1 Descrição dos dados <br>
-    [objeto]: [descrição do objeto]
 ##### Tabelas <br>
 EDITORA: Tabela que armazena as informações relativas à editora.<br>
 LIVRO: Tabela que armazena as informações relativas aos livros.<br>
