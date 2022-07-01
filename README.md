@@ -25,7 +25,9 @@ a) inclusão do PMC desenvolvido pelo grupo <br>
 
 ### 4.Personas e Histórias de usuário<br>
 
-![Arquivo PDF das Personas e Histórias de usuário](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/hist%C3%B3rias%20de%20usu%C3%A1rio%20(2).pdf)
+![Arquivo PDF das Personas](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Atividade_personas.pdf)
+
+![Arquivo PDF das Histórias de usuário](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/hist%C3%B3rias%20de%20usu%C3%A1rio%20(2).pdf)
 
 ### 5.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
@@ -33,6 +35,7 @@ a) inclusão do PMC desenvolvido pelo grupo <br>
 
 
 #### 5.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
+O Projeto Athena precisa, inicialmente, dos seguintes relatórios: <br>
 Relatório que informe todos os livros já cadastrados no banco de dados, incluindo informações como: código, título, data de publicação, autor e editora.<br>
 Relatório que informe alunos cadastrados, incluindo informações como: nome, data de nascimento, e-mail, username.<br>
 Relatório que informe os livros locados bem como as informações de locação, como: nome do livro, código do livro, data de locação e previsão de entrega.<br>
