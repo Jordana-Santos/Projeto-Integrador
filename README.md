@@ -19,33 +19,26 @@ O sistema também aborda o cadastro de usuários para uma posterior identificaç
  
 ### 3.PMC<br>
 a) inclusão do PMC desenvolvido pelo grupo <br>
+
 ![Arquivo PDF do PMC de Breno, Débora e Jordana](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/PMC_biblioteca.pdf)
 
 
 ### 4.Personas e Histórias de usuário<br>
 
-a) inclusão dos Personas desenvolvidos pelo grupo<br>
-
-b) inclusão das Histórias de usuário desenvolvidas pelo grupo<br>
-
+![Arquivo PDF das Personas e Histórias de usuário](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/hist%C3%B3rias%20de%20usu%C3%A1rio%20(2).pdf)
 
 ### 5.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
+
 ![Arquivo PDF do Protótipo do Projeto Athena](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/prototipoPI.pdf)
 
 
 #### 5.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informações? 
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
-    
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório que informe quais são os gerentes de cada departamento incluindo as seguintes informações: número do departamento,  nome do departamento, e nome do gerente.
-* Relatório de empregados por projeto incluindo as seguintes informações: número do projeto, nome do projeto, rg do empregado, nome do empregado e quantidade de horas de trabalho do empregado alocadas ao projeto.
-* Relatório de empregados com dependentes incluindo as seguintes informações: rg do empregado, nome do empregado, nome do dependente, tipo de relação, data de nascimento do dependente e sexo do dependente.
-* Relatório com a quantidade de empregados por cada departamento incluindo as seguintes informações: nome do departamento, supervisor e quantidade de empregados alocados no departamento.
-* Relatório de supervisores e supervisionados incluindo as seguintes informações: nome do supervisor e nome do supervisionado.
-
-
-> Ideias de Relatórios: livros locados, alunos, avaliações, livros
+Relatório que informe todos os livros já cadastrados no banco de dados, incluindo informações como: código, título, data de publicação, autor e editora.<br>
+Relatório que informe alunos cadastrados, incluindo informações como: nome, data de nascimento, e-mail, username.<br>
+Relatório que informe os livros locados bem como as informações de locação, como: nome do livro, código do livro, data de locação e previsão de entrega.<br>
+Relatório dos autores já cadastrados, contendo o nome e sua nacionalidade.<br>
+Relatório das editoras com livros cadastrados no sistema.<br>
+Relatório de avaliações de um determinado livro contendo: o nome do livro, sua nota, a data de avaliação e um comentário.<br>
 
  
 ### 6 TABELA DE DADOS DO SISTEMA: <br>
