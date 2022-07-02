@@ -20,17 +20,35 @@ O sistema também aborda o cadastro de usuários para uma posterior identificaç
 ### 3.PMC<br>
 a) inclusão do PMC desenvolvido pelo grupo <br>
 
+![PMC de Breno, Débora e Jordana](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/PMC%20Projeto%20Integrador.png) <br> 
+
 ![Arquivo PDF do PMC de Breno, Débora e Jordana](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/PMC_biblioteca.pdf)
 
-
 ### 4.Personas e Histórias de usuário<br>
+Personas <br>
+![Personas](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/persona%201.jpg)<br>
 
 ![Arquivo PDF das Personas](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Atividade_personas.pdf)
 
-![Arquivo PDF das Histórias de usuário](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/hist%C3%B3rias%20de%20usu%C3%A1rio%20(2).pdf)
+Histórias de Usuário <br>
+![Historias de Usuário](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/historias%20de%20usuario.jpg) <br>
+
+![Arquivo PDF das Histórias de Usuário](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/hist%C3%B3rias%20de%20usu%C3%A1rio%20(2).pdf)
 
 ### 5.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
+Tela de login <br>
+![Tela login](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/login.png) <br>
 
+Tela home do aluno <br>
+![Tela home aluno](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/home%20aluno.png) <br>
+
+Tela home do bibliotecario <br>
+![Tela home bibliotecario](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/home%20bibliotecario.png) <br>
+
+Tela do perfil do aluno <br>
+![Tela perfil aluno](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/perfil%20aluno.png) <br>
+
+Protótipo completo: <br>
 ![Arquivo PDF do Protótipo do Projeto Athena](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/prototipoPI.pdf)
 
 
@@ -46,55 +64,68 @@ Relatório de avaliações de um determinado livro contendo: o nome do livro, su
  
 ### 6 TABELA DE DADOS DO SISTEMA: <br>
 
-![Tabela de dados do Projeto Athena](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Planilha%20de%20dados%20Projeto%20Integrador%20-%20P%C3%A1gina1%20(1).pdf)
+![Tabela de dados do Projeto Athena](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Planilha%20de%20dados.jpg)
+
+![Arquivo PDF da Tabela de dados](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Planilha%20de%20dados%20Projeto%20Integrador%20-%20P%C3%A1gina1%20(1).pdf)
 
  
  ### 7.MODELO CONCEITUAL<br>
             
-![Alt text](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/modelo_conceitual.jpeg)
+![Modelo conceitual](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/modelo_conceitual.jpeg) <br>
       
-    
 #### 7.1 Descrição dos dados <br>
-##### Tabelas <br>
-EDITORA: Tabela que armazena as informações relativas à editora.<br>
-LIVRO: Tabela que armazena as informações relativas aos livros.<br>
-AUTOR: Tabela que armazena as informações relativas ao autor.<br>
-STATUS_LOCA: Tabela que armazena as informações relativas ao status de locação.<br>
-CATEGORIA: Tabela que armazena as informações relativas à categoria do livro.<br>
-PESSOA: Tabela que armazena as informações relativas à pessoa ou usuário.<br>
-TIPO_PESSOA: Tabela que armazena as informações relativas ao tipo de usuário.<br>
 
-##### Atributos <br>
-codigo_edit: campo que armazena o código de cada editora.<br>
-nome: campo que armazena o nome de cada editora, autor ou usuário.<br>
-codigo_livro: campo que armazena o código de cada livro.<br>
-titulo: campo que armazena o título de cada livro.<br>
-data_publicacao: campo que armazena a data de publicação de cada livro.<br>
-ISBN: campo que armazena o International Standard Book Number (Padrão Internacional de Numeração de Livro) de cada livro.<br>
-codigo_autor: campo que armazena o código de cada autor.<br>
-nacionalidade: campo que armazena a nacionalidade de cada autor.<br>
-codigo_status: campo que armazena o código de cada status de locação.<br>
-dsc_status: campo que armazena a descrição do código de cada status de locação.<br>
-codigo_cat: campo que armazena o código de cada categoria.<br>
-dsc_genero: campo que armazena a descrição do código (o nome do gênero) de cada categoria.<br>
-codigo_pessoa: campo que armazena o código de cada pessoa.<br>
-data_nasc: campo que armazena a data de nascimento de cada pessoa.<br>
-senha: campo que armazena a senha de cada pessoa.<br>
-email: campo que armazena o email de cada pessoa.<br>
-tipo: campo que armazena o tipo de usuário de cada pessoa.<br>
-username: campo que armazena o nome de usuário de cada pessoa.<br>
-codigo_tipo: campo que armazena o código de cada tipo de usuário.<br>
-dsc_tipo: campo que armazena a descrição do código de cada tipo de usuário.<br>
-cod_locacao: campo que armazena o código de cada locação.<br>
-data_locacao: campo que armazena a data de cada locação.<br>
-status: campo que armazena o status de cada locação.<br>
-prev_entrega: campo que armazena a previsão de entrega de cada locação.<br>
-qtd_estrelas: campo que armazena a quantidade de estrelas (um número inteiro de 1 a 5) de cada avaliação.<br>
-data: campo que armazena a data de cada avaliação.<br>
-cod_avaliacao: campo que armazena o código de cada avaliação.<br>
-comentario: campo que armazena o comentário realizado em cada avaliação.<br>
+Formato: <br>
+> Tabela 
+>> Atributos da tabela 
 
+> EDITORA: Tabela que armazena as informações relativas à editora.<br>
+>> codigo_edit: campo que armazena o código de cada editora.<br>
+   nome: campo que armazena o nome de cada editora.<br>
 
+> LIVRO: Tabela que armazena as informações relativas aos livros.<br>
+>> codigo_livro: campo que armazena o código de cada livro.<br>
+   titulo: campo que armazena o título de cada livro.<br>
+   data_publicacao: campo que armazena a data de publicação de cada livro.<br>
+   ISBN: campo que armazena o International Standard Book Number (Padrão Internacional de Numeração de Livro) de cada livro.<br>
+
+> AUTOR: Tabela que armazena as informações relativas ao autor.<br>
+>> codigo_autor: campo que armazena o código de cada autor.<br>
+   nome: campo que armazena o nome de cada autor.<br>
+   nacionalidade: campo que armazena a nacionalidade de cada autor.<br>
+   
+> STATUS_LOCA: Tabela que armazena as informações relativas ao status de locação.<br>
+>> codigo_status: campo que armazena o código de cada status de locação.<br>
+   dsc_status: campo que armazena a descrição do código de cada status de locação.<br>
+
+> CATEGORIA: Tabela que armazena as informações relativas à categoria do livro.<br>
+>> codigo_cat: campo que armazena o código de cada categoria.<br>
+   dsc_genero: campo que armazena a descrição do código (o nome do gênero) de cada categoria.<br>
+
+> PESSOA: Tabela que armazena as informações relativas à pessoa ou usuário.<br>
+>> codigo_pessoa: campo que armazena o código de cada pessoa.<br>
+   nome: campo que armazena o nome de cada usuário.<br>
+   data_nasc: campo que armazena a data de nascimento de cada pessoa.<br>
+   senha: campo que armazena a senha de cada pessoa.<br>
+   email: campo que armazena o email de cada pessoa.<br>
+   tipo: campo que armazena o tipo de usuário de cada pessoa.<br>
+   username: campo que armazena o nome de usuário de cada pessoa.<br>
+
+> TIPO_PESSOA: Tabela que armazena as informações relativas ao tipo de usuário.<br>
+>> codigo_tipo: campo que armazena o código de cada tipo de usuário.<br>
+   dsc_tipo: campo que armazena a descrição do código de cada tipo de usuário.<br>
+
+> Atributos do relacionamento Locado: <br>
+>> cod_locacao: campo que armazena o código de cada locação.<br>
+   data_locacao: campo que armazena a data de cada locação.<br>
+   status: campo que armazena o status de cada locação.<br>
+   prev_entrega: campo que armazena a previsão de entrega de cada locação.<br>
+
+> Atributos do relacionamento Avaliado:
+>> qtd_estrelas: campo que armazena a quantidade de estrelas (um número inteiro de 1 a 5) de cada avaliação.<br>
+   data: campo que armazena a data de cada avaliação.<br>
+   cod_avaliacao: campo que armazena o código de cada avaliação.<br>
+   comentario: campo que armazena o comentário realizado em cada avaliação.<br> <br>
 
 -----
 
