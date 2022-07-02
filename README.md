@@ -1,30 +1,27 @@
 # TRABALHO DE PI: Projeto Athena
 Trabalho desenvolvido durante a disciplina de Desenvolvimento de Sistemas e Projeto Integrador
 
-# Sumário
-
-### 1. COMPONENTES<br>
+## 1. Componentes<br>
 Integrantes do grupo:<br>
 Breno Amâncio Affonso: brenoaaffonso@gmail.com <br>
 Débora Cristina de Souza Buzatto: deborabuzatto27@gmail.com <br>
 Jordana Lourenço Santos: jordanals0519@gmail.com
 
 
-### 2.MINIMUNDO<br>
-
+## 2.Minimundo<br>
 O sistema proposto, terá as características aqui descritas. Um cliente solicitou um sistema para uma biblioteca, onde há empréstimos de livros para os alunos, adição e exclusão de livros disponíveis, além da classificação e organização entre eles. O sistema então contém livros que são emprestados a alunos e possuem as seguintes características: título do livro, ISBN, data de lançamento, editora e um autor, este último possuindo uma nacionalidade. A organização destes livros se dá com base em gêneros, que possuem códigos e descrições específicas, além de existirem sem nenhum livro disponível englobado por ele.
 O sistema também aborda o cadastro de usuários para uma posterior identificação, contendo nome completo, data de nascimento, nome de usuário (username), e-mail, senha e um código para diferenciar entre aluno e funcionário. Cada aluno pode ter mais de um contato, mas um contato só existe com apenas um usuário. O aluno também pode avaliar os livros da biblioteca, deixando registrado o nome do livro, um comentário sobre e uma nota entre 1 e 5. Um livro possui apenas uma avaliação por usuário, mas um usuário pode avaliar mais de um livro.
 
- 
- 
-### 3.PMC<br>
+
+## 3.PMC<br>
 a) inclusão do PMC desenvolvido pelo grupo <br>
 
 ![PMC de Breno, Débora e Jordana](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/PMC%20Projeto%20Integrador.png) <br> 
 
 ![Arquivo PDF do PMC de Breno, Débora e Jordana](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/PMC_biblioteca.pdf)
 
-### 4.Personas e Histórias de usuário<br>
+
+## 4.Personas e Histórias de usuário<br>
 Personas <br>
 ![Personas](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/persona%201.jpg)<br>
 
@@ -35,7 +32,8 @@ Histórias de Usuário <br>
 
 ![Arquivo PDF das Histórias de Usuário](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/hist%C3%B3rias%20de%20usu%C3%A1rio%20(2).pdf)
 
-### 5.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
+
+## 5.Rascunhos Básicos da Interface (Mockups)<br>
 Tela de login <br>
 ![Tela login](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/login.png) <br>
 
@@ -52,7 +50,7 @@ Protótipo completo: <br>
 ![Arquivo PDF do Protótipo do Projeto Athena](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/prototipoPI.pdf)
 
 
-#### 5.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
+### 5.1 Quais Perguntas Podem Ser Respondidas Com o Sistema Proposto?
 O Projeto Athena precisa, inicialmente, dos seguintes relatórios: <br>
 Relatório que informe todos os livros já cadastrados no banco de dados, incluindo informações como: código, título, data de publicação, autor e editora.<br>
 Relatório que informe alunos cadastrados, incluindo informações como: nome, data de nascimento, e-mail, username.<br>
@@ -61,19 +59,30 @@ Relatório dos autores já cadastrados, contendo o nome e sua nacionalidade.<br>
 Relatório das editoras com livros cadastrados no sistema.<br>
 Relatório de avaliações de um determinado livro contendo: o nome do livro, sua nota, a data de avaliação e um comentário.<br>
 
- 
-### 6 TABELA DE DADOS DO SISTEMA: <br>
+
+## 6 Tabela de Dados do Sistema: <br>
 
 ![Tabela de dados do Projeto Athena](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Planilha%20de%20dados.jpg)
 
 ![Arquivo PDF da Tabela de dados](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Planilha%20de%20dados%20Projeto%20Integrador%20-%20P%C3%A1gina1%20(1).pdf)
 
- 
- ### 7.MODELO CONCEITUAL<br>
+
+ ## 7.Modelo Conceitual<br>
             
 ![Modelo conceitual](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/modelo_conceitual.jpeg) <br>
-      
-#### 7.1 Descrição dos dados <br>
+<br>
+3 principais entidades do sistema: <br>
+ - LIVRO
+ - PESSOA
+ - STATUS_LOCA
+
+Principais fluxos de informação do sistema: <br>
+- LIVRO
+- PESSOA
+- EDITORA
+- AUTOR
+
+### 7.1 Descrição dos dados <br>
 
 > Tabela 
 >> Atributos da tabela 
