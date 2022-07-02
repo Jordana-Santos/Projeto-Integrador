@@ -75,7 +75,6 @@ Relatório de avaliações de um determinado livro contendo: o nome do livro, su
       
 #### 7.1 Descrição dos dados <br>
 
-Formato: <br>
 > Tabela 
 >> Atributos da tabela 
 
