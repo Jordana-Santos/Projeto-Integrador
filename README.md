@@ -14,11 +14,9 @@ O sistema também aborda o cadastro de usuários para uma posterior identificaç
 
 
 ## 3.PMC<br>
-a) inclusão do PMC desenvolvido pelo grupo <br>
+PMC desenvolvido pelo grupo: <br>
 
 ![PMC de Breno, Débora e Jordana](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/PMC%20Projeto%20Integrador.png) <br> 
-
-![Arquivo PDF do PMC de Breno, Débora e Jordana](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/PMC_biblioteca.pdf)
 
 
 ## 4.Personas e Histórias de usuário<br>
@@ -137,9 +135,14 @@ Principais fluxos de informação do sistema: <br>
 
 
 ## 8	Rastreabilidade dos Artefatos <br>
-        a) Historia de usuários vs protótipo (mockup)
-        b) Protótipo vs Modelo conceitual
-       
+Historia de usuários vs protótipo (mockup) <br>
+![hu x prototipo](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/hu%20x%20prototipo.jpg) <br>
+
+Protótipo vs Modelo conceitual <br>
+![prototipo x modelo conceitual](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/prototipo%20x%20mod%20conceitual.jpg) <br>
+
+![Arquivo completo de Rastreabilidade](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Rastreabilidade%20no%20sistema.pdf) <br>
+
 -----
 
 ### 9	MODELO LÓGICO<br>
