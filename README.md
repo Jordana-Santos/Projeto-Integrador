@@ -47,7 +47,7 @@ Tela do perfil do aluno <br>
 ![Tela perfil aluno](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/perfil%20aluno.png) <br>
 
 Protótipo completo: <br>
-![Arquivo PDF do Protótipo do Projeto Athena](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/prototipoPI.pdf)
+![Arquivo PDF do Protótipo do Projeto Athena](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/projeto%20integrador%20v2.pdf)
 
 
 ### 5.1 Quais Perguntas Podem Ser Respondidas Com o Sistema Proposto?
@@ -135,14 +135,12 @@ Principais fluxos de informação do sistema: <br>
    cod_avaliacao: campo que armazena o código de cada avaliação.<br>
    comentario: campo que armazena o comentário realizado em cada avaliação.<br> <br>
 
------
 
-### 8	RASTREABILIDADE DOS ARTEFATOS<br>
+## 8	Rastreabilidade dos Artefatos <br>
         a) Historia de usuários vs protótipo (mockup)
         b) Protótipo vs Modelo conceitual
-        (não serão aceitos modelos que não estejam em conformidade)
-        c) Backlog (caso solicitado)
        
+-----
 
 ### 9	MODELO LÓGICO<br>
         a) inclusão do esquema lógico do banco de dados
