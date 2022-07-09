@@ -8,18 +8,18 @@ Débora Cristina de Souza Buzatto: deborabuzatto27@gmail.com <br>
 Jordana Lourenço Santos: jordanals0519@gmail.com
 
 
-## 2.Minimundo<br>
+## 2. Minimundo<br>
 O sistema proposto, terá as características aqui descritas. Um cliente solicitou um sistema para uma biblioteca, onde há empréstimos de livros para os alunos, adição e exclusão de livros disponíveis, além da classificação e organização entre eles. O sistema então contém livros que são emprestados a alunos e possuem as seguintes características: título do livro, ISBN, data de lançamento, editora e um autor, este último possuindo uma nacionalidade. A organização destes livros se dá com base em gêneros, que possuem códigos e descrições específicas, além de existirem sem nenhum livro disponível englobado por ele.
 O sistema também aborda o cadastro de usuários para uma posterior identificação, contendo nome completo, data de nascimento, nome de usuário (username), e-mail, senha e um código para diferenciar entre aluno e funcionário. Cada aluno pode ter mais de um contato, mas um contato só existe com apenas um usuário. O aluno também pode avaliar os livros da biblioteca, deixando registrado o nome do livro, um comentário sobre e uma nota entre 1 e 5. Um livro possui apenas uma avaliação por usuário, mas um usuário pode avaliar mais de um livro.
 
 
-## 3.PMC<br>
+## 3. PMC<br>
 PMC desenvolvido pelo grupo: <br>
 
 ![PMC de Breno, Débora e Jordana](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/PMC%20Projeto%20Integrador.png) <br> 
 
 
-## 4.Personas e Histórias de usuário<br>
+## 4. Personas e Histórias de usuário<br>
 Personas <br>
 ![Personas](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/persona%201.jpg)<br>
 
@@ -31,7 +31,7 @@ Histórias de Usuário <br>
 ![Arquivo PDF das Histórias de Usuário](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/hist%C3%B3rias%20de%20usu%C3%A1rio%20(2).pdf)
 
 
-## 5.Rascunhos Básicos da Interface (Mockups)<br>
+## 5. Rascunhos Básicos da Interface (Mockups)<br>
 Tela de login <br>
 ![Tela login](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/login.png) <br>
 
@@ -58,16 +58,16 @@ Relatório das editoras com livros cadastrados no sistema.<br>
 Relatório de avaliações de um determinado livro contendo: o nome do livro, sua nota, a data de avaliação e um comentário.<br>
 
 
-## 6 Tabela de Dados do Sistema: <br>
+## 6. Tabela de Dados do Sistema: <br>
 
 ![Tabela de dados do Projeto Athena](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Planilha%20de%20dados.jpg)
 
-![Arquivo PDF da Tabela de dados](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Planilha%20de%20dados%20Projeto%20Integrador%20-%20P%C3%A1gina1%20(1).pdf)
+![Arquivo PDF da Tabela de dados](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Planilha%20de%20dados%20Projeto%20Integrador.pdf)
 
 
- ## 7.Modelo Conceitual<br>
+ ## 7. Modelo Conceitual<br>
             
-![Modelo conceitual](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/modelo_conceitual.jpeg) <br>
+![Modelo conceitual](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Conceitual_biblioteca_v2.png) <br>
 <br>
 3 principais entidades do sistema: <br>
  - LIVRO
@@ -77,7 +77,6 @@ Relatório de avaliações de um determinado livro contendo: o nome do livro, su
 Principais fluxos de informação do sistema: <br>
 - LIVRO
 - PESSOA
-- EDITORA
 - AUTOR
 
 ### 7.1 Descrição dos dados <br>
@@ -134,7 +133,7 @@ Principais fluxos de informação do sistema: <br>
    comentario: campo que armazena o comentário realizado em cada avaliação.<br> <br>
 
 
-## 8	Rastreabilidade dos Artefatos <br>
+## 8.	Rastreabilidade dos Artefatos <br>
 Historia de usuários vs protótipo (mockup) <br>
 ![hu x prototipo](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/hu%20x%20prototipo.jpg) <br>
 
@@ -143,28 +142,23 @@ Protótipo vs Modelo conceitual <br>
 
 ![Arquivo completo de Rastreabilidade](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Rastreabilidade%20no%20sistema.pdf) <br>
 
------
-
-### 9	MODELO LÓGICO<br>
-        a) inclusão do esquema lógico do banco de dados
+## 9.	Modelo Lógico <br>
+![Modelo lógico](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Logico_biblioteca_v2.png) <br>
+        
         b) verificação de correspondencia com o modelo conceitual 
         (não serão aceitos modelos que não estejam em conformidade)
 
-### 10	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas em SQL/DDL 
-        (criação de tabelas, alterações, etc..) 
+## 10.	Modelo Físico <br>
+        
+![Modelo físico em .sql](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/F%C3%ADsico_biblioteca_v2.sql) <br>
         
        
-### 11	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
-        (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados 
- <br> + insert para dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        c) formato .SQL
+## 11.	Insert Aplicado Nas Tabelas do Banco de Dados <br>
+
+![Inserts em .sql das tabelas](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Fisico_Inserts_biblioteca_v2.sql) <br>
 
 
-### 12	TABELAS E PRINCIPAIS CONSULTAS<br>
+## 12.	Tabelas e Principais Consultas <br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 12.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 #### 12.2 PRINCIPAIS CONSULTAS DO SISTEMA 
@@ -173,14 +167,15 @@ Protótipo vs Modelo conceitual <br>
   a) Você deve apresentar as consultas em formato SQL para cad um dos relatórios.
  <br>
   b) Além da consulta deve ser apresentada uma imagem com o resultado obtido para cada consulta.<br>
+  
  #### 12.3 ANTEPROJETO VERSÃO 1
  
- Link para [Modelo de Anteprojeto](https://docs.google.com/document/d/1oeVS2CUffbSNYWxIWZFY_mX6E5ao_PHU/edit?usp=sharing&ouid=104104747195236161434&rtpof=true&sd=true)
+ ![Modelo de Anteprojeto](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/AnteProjeto.pdf)
  
  <br>
  <br>
  
- 
+ ---
  
  
  ### 13 Gráficos, relatórios, integração com Linguagem de programação e outras solicitações.<br>
