@@ -104,8 +104,8 @@ Principais fluxos de informação do sistema: <br>
    dsc_status: campo que armazena a descrição do código de cada status de locação.<br>
 
 > CATEGORIA: Tabela que armazena as informações relativas à categoria do livro.<br>
->> codigo_cat: campo que armazena o código de cada categoria.<br>
-   dsc_genero: campo que armazena a descrição do código (o nome do gênero) de cada categoria.<br>
+>> codigo_categoria: campo que armazena o código de cada categoria.<br>
+   dsc_categoria: campo que armazena a descrição do código (o nome do gênero) de cada categoria.<br>
 
 > PESSOA: Tabela que armazena as informações relativas à pessoa ou usuário.<br>
 >> codigo_pessoa: campo que armazena o código de cada pessoa.<br>
@@ -119,18 +119,19 @@ Principais fluxos de informação do sistema: <br>
 > TIPO_PESSOA: Tabela que armazena as informações relativas ao tipo de usuário.<br>
 >> codigo_tipo: campo que armazena o código de cada tipo de usuário.<br>
    dsc_tipo: campo que armazena a descrição do código de cada tipo de usuário.<br>
+   
+ > COMENTARIO: Tabela que armazena o comentário realizado em cada avaliação <br>
+>> codigo_cometário: Campo que armazena o código de cada comentário. <br>
+   dsc_comentario: Campo que armazena os comentários. <br>
 
 > Atributos do relacionamento Locado: <br>
->> cod_locacao: campo que armazena o código de cada locação.<br>
+>> codigo_locacao: campo que armazena o código de cada locação.<br>
    data_locacao: campo que armazena a data de cada locação.<br>
-   status: campo que armazena o status de cada locação.<br>
-   prev_entrega: campo que armazena a previsão de entrega de cada locação.<br>
 
 > Atributos do relacionamento Avaliado:
 >> qtd_estrelas: campo que armazena a quantidade de estrelas (um número inteiro de 1 a 5) de cada avaliação.<br>
    data: campo que armazena a data de cada avaliação.<br>
-   cod_avaliacao: campo que armazena o código de cada avaliação.<br>
-   comentario: campo que armazena o comentário realizado em cada avaliação.<br> <br>
+   cod_avaliacao: campo que armazena o código de cada avaliação.<br> <br>
 
 
 ## 8.	Rastreabilidade dos Artefatos <br>
@@ -144,9 +145,6 @@ Protótipo vs Modelo conceitual <br>
 
 ## 9.	Modelo Lógico <br>
 ![Modelo lógico](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Logico_biblioteca_v2.png) <br>
-        
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
 
 ## 10.	Modelo Físico <br>
         
