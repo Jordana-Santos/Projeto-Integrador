@@ -168,7 +168,7 @@ Protótipo vs Modelo conceitual <br>
   
  #### 12.3 ANTEPROJETO VERSÃO 1
  
- ![Modelo de Anteprojeto](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/AnteProjeto.pdf)
+ ![Anteprojeto em .pdf](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/AnteProjeto.pdf)
  
  <br>
  <br>
