@@ -32,23 +32,40 @@ Histórias de Usuário <br>
 
 
 ## 5. Rascunhos Básicos da Interface (Mockups)<br>
+
+### 5.1 Protótipo do sistema web
 Tela de login <br>
-![Tela login](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/login.png) <br>
+![Tela login web](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/login.png) <br>
 
 Tela home do aluno <br>
-![Tela home aluno](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/home%20aluno.png) <br>
+![Tela home aluno web](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/home%20aluno.png) <br>
 
 Tela home do bibliotecario <br>
 ![Tela home bibliotecario](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/home%20bibliotecario.png) <br>
 
 Tela do perfil do aluno <br>
-![Tela perfil aluno](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/perfil%20aluno.png) <br>
+![Tela perfil aluno web](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/perfil%20aluno.png) <br>
 
 Protótipo completo: <br>
-![Arquivo PDF do Protótipo do Projeto Athena](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/projeto%20integrador%20v2.pdf)
+![Arquivo PDF do protótipo web](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/projeto%20integrador%20v2.pdf)
 
+### 5.1 Protótipo do sistema mobile
+Tela de login <br>
+![Tela login mobile](https://github.com/Jordana-Santos/Projeto-Integrador/blob/main/arquivos/login_mobile.png) <br>
 
-### 5.1 Quais Perguntas Podem Ser Respondidas Com o Sistema Proposto?
+Tela home <br>
+![Tela home mobile](https://github.com/Jordana-Santos/Projeto-Integrador/blob/main/arquivos/home_mobile.png) <br>
+
+Tela lista livros <br>
+![Tela lista livros mobile](https://github.com/Jordana-Santos/Projeto-Integrador/blob/main/arquivos/lista_livros_mobile.png) <br>
+
+Tela de perfil <br>
+![Tela perfil mobile](https://github.com/Jordana-Santos/Projeto-Integrador/blob/main/arquivos/perfil_mobile.png) <br>
+
+Protótipo completo: <br>
+![Arquivo PDF do protótipo mobile](https://github.com/Jordana-Santos/Projeto-Integrador/blob/main/arquivos/prototipo_mobile.pdf)
+
+### 5.3 Quais Perguntas Podem Ser Respondidas Com o Sistema Proposto?
 O Projeto Athena precisa, inicialmente, dos seguintes relatórios: <br>
 Relatório que informe todos os livros já cadastrados no banco de dados, incluindo informações como: código, título, data de publicação, autor e editora.<br>
 Relatório que informe alunos cadastrados, incluindo informações como: nome, data de nascimento, e-mail, username.<br>
@@ -60,14 +77,13 @@ Relatório de avaliações de um determinado livro contendo: o nome do livro, su
 
 ## 6. Tabela de Dados do Sistema: <br>
 
-![Tabela de dados do Projeto Athena](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Planilha%20de%20dados.jpg)
-
 ![Arquivo PDF da Tabela de dados](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Planilha%20de%20dados%20Projeto%20Integrador.pdf)
-
 
  ## 7. Modelo Conceitual<br>
             
-![Modelo conceitual](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Conceitual_biblioteca_v2.png) <br>
+![Modelo conceitual em PNG](https://github.com/Jordana-Santos/Projeto-Integrador/blob/main/arquivos/Conceitual_Athena.png) <br>
+
+![Modelo conceitual BrModelo](https://github.com/Jordana-Santos/Projeto-Integrador/blob/main/arquivos/Conceitual_Athena.brM3) <br>
 <br>
 3 principais entidades do sistema: <br>
  - LIVRO
@@ -77,7 +93,7 @@ Relatório de avaliações de um determinado livro contendo: o nome do livro, su
 Principais fluxos de informação do sistema: <br>
 - LIVRO
 - PESSOA
-- AUTOR
+- LIVRO_PESSOA_FAV
 
 ### 7.1 Descrição dos dados <br>
 
@@ -93,6 +109,10 @@ Principais fluxos de informação do sistema: <br>
    titulo: campo que armazena o título de cada livro.<br>
    data_publicacao: campo que armazena a data de publicação de cada livro.<br>
    ISBN: campo que armazena o International Standard Book Number (Padrão Internacional de Numeração de Livro) de cada livro.<br>
+   sinopse: campo que armazena a sinopse de cada livro.<br> 
+   edicao: campo que armazena a edição de cada livro.<br>
+   volume: campo que armazena o volume de cada livro.<br>
+   qtd_paginas: campo que armazena a quantidade de páginas de cada livro.<br>
 
 > AUTOR: Tabela que armazena as informações relativas ao autor.<br>
 >> codigo_autor: campo que armazena o código de cada autor.<br>
@@ -106,6 +126,7 @@ Principais fluxos de informação do sistema: <br>
 > CATEGORIA: Tabela que armazena as informações relativas à categoria do livro.<br>
 >> codigo_categoria: campo que armazena o código de cada categoria.<br>
    dsc_categoria: campo que armazena a descrição do código (o nome do gênero) de cada categoria.<br>
+   img_categoria: campo que armazena a imagem da capa de cada livro.<br>
 
 > PESSOA: Tabela que armazena as informações relativas à pessoa ou usuário.<br>
 >> codigo_pessoa: campo que armazena o código de cada pessoa.<br>
@@ -113,8 +134,8 @@ Principais fluxos de informação do sistema: <br>
    data_nasc: campo que armazena a data de nascimento de cada pessoa.<br>
    senha: campo que armazena a senha de cada pessoa.<br>
    email: campo que armazena o email de cada pessoa.<br>
-   tipo: campo que armazena o tipo de usuário de cada pessoa.<br>
    username: campo que armazena o nome de usuário de cada pessoa.<br>
+   img_perfil: campo que armazena a imagem de perfil de cada pessoa.<br>
 
 > TIPO_PESSOA: Tabela que armazena as informações relativas ao tipo de usuário.<br>
 >> codigo_tipo: campo que armazena o código de cada tipo de usuário.<br>
@@ -124,14 +145,18 @@ Principais fluxos de informação do sistema: <br>
 >> codigo_cometário: Campo que armazena o código de cada comentário. <br>
    dsc_comentario: Campo que armazena os comentários. <br>
 
-> Atributos do relacionamento Locado: <br>
+> Atributos do relacionamento LOCADO: <br>
 >> codigo_locacao: campo que armazena o código de cada locação.<br>
    data_locacao: campo que armazena a data de cada locação.<br>
+   data_entrega: campo que armazena a data de entrega de cada livro.<br>
 
-> Atributos do relacionamento Avaliado:
+> Atributos do relacionamento AVALIADO:
 >> qtd_estrelas: campo que armazena a quantidade de estrelas (um número inteiro de 1 a 5) de cada avaliação.<br>
    data: campo que armazena a data de cada avaliação.<br>
-   cod_avaliacao: campo que armazena o código de cada avaliação.<br> <br>
+   cod_avaliacao: campo que armazena o código de cada avaliação.<br> 
+   
+> Atributos do relacionamento FAVORITADO: <br>
+>> codigo_favorito: campo que armazena o código ao favoritar o livro.<br> <br>
 
 
 ## 8.	Rastreabilidade dos Artefatos <br>
@@ -144,17 +169,21 @@ Protótipo vs Modelo conceitual <br>
 ![Arquivo completo de Rastreabilidade](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Rastreabilidade%20no%20sistema.pdf) <br>
 
 ## 9.	Modelo Lógico <br>
-![Modelo lógico](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Logico_biblioteca_v2.png) <br>
+![Modelo lógico em PNG](https://github.com/Jordana-Santos/Projeto-Integrador/blob/main/arquivos/Logico_Athena.png) <br>
+
+![Modelo lógico no BrModelo](https://github.com/Jordana-Santos/Projeto-Integrador/blob/main/arquivos/Logico_Athena.brM3) <br>
 
 ## 10.	Modelo Físico <br>
         
-![Modelo físico em .sql](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/F%C3%ADsico_biblioteca_v2.sql) <br>
-        
-       
+![Modelo físico em .txt](https://github.com/Jordana-Santos/Projeto-Integrador/blob/main/arquivos/Fisico_Athena.txt) <br>
+
+![Modelo físico em .sql](https://github.com/Jordana-Santos/Projeto-Integrador/blob/main/arquivos/Fisico_Athena.sql) <br>
+
 ## 11.	Insert Aplicado Nas Tabelas do Banco de Dados <br>
 
-![Inserts em .sql das tabelas](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/Fisico_Inserts_biblioteca_v2.sql) <br>
+![Inserts em .txt das tabelas](https://github.com/Jordana-Santos/Projeto-Integrador/blob/main/arquivos/Fisico_Inserts_Athena.txt) <br>
 
+![Inserts em .sql das tabelas](https://github.com/Jordana-Santos/Projeto-Integrador/blob/main/arquivos/Fisico_Inserts_Athena.sql) <br>
 
 ## 12.	Tabelas e Principais Consultas <br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
