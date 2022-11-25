@@ -174,52 +174,34 @@ Protótipo vs Modelo conceitual <br>
 ![Modelo lógico no BrModelo](https://github.com/Jordana-Santos/Projeto-Integrador/blob/main/arquivos/Logico_Athena.brM3) <br>
 
 ## 10.	Modelo Físico <br>
-        
 ![Modelo físico em .txt](https://github.com/Jordana-Santos/Projeto-Integrador/blob/main/arquivos/Fisico_Athena.txt) <br>
 
 ![Modelo físico em .sql](https://github.com/Jordana-Santos/Projeto-Integrador/blob/main/arquivos/Fisico_Athena.sql) <br>
 
 ## 11.	Insert Aplicado Nas Tabelas do Banco de Dados <br>
-
 ![Inserts em .txt das tabelas](https://github.com/Jordana-Santos/Projeto-Integrador/blob/main/arquivos/Fisico_Inserts_Athena.txt) <br>
 
 ![Inserts em .sql das tabelas](https://github.com/Jordana-Santos/Projeto-Integrador/blob/main/arquivos/Fisico_Inserts_Athena.sql) <br>
 
 ## 12.	Tabelas e Principais Consultas <br>
-    OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
-#### 12.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-#### 12.2 PRINCIPAIS CONSULTAS DO SISTEMA 
- Inserir as principais consultas (relativas aos 5 principais relatórios) definidas previamente no iten 3.1 deste template.
- <br>
-  a) Você deve apresentar as consultas em formato SQL para cad um dos relatórios.
- <br>
-  b) Além da consulta deve ser apresentada uma imagem com o resultado obtido para cada consulta.<br>
-  
- #### 12.3 ANTEPROJETO VERSÃO 1
+![Principais Relatórios](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/RelatoriosProjetoAthena.ipynb) <br>
  
- ![Anteprojeto em .pdf](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/AnteProjeto.pdf)
+## 13 Diagrama de Classes <br>
+ ![Diagrama de Classes](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/DiagramaClasses.pdf) <br>
  
- <br>
- <br>
+## 14 Calendário Reverso <br>
+ ![Calendário Reverso](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/CalendarioReverso.png) <br>
  
- ---
+ ![Calendário Reverso](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/CalendarioReverso.pdf) <br>
  
+ ## 14 Slides e Apresentação em vídeo. <br>
+ ### 14.1 Slides; <br>
  
- ### 13 Gráficos, relatórios, integração com Linguagem de programação e outras solicitações.<br>
-     OBS: Observe as instruções relacionadas a cada uma das atividades abaixo.<br>
- #### 13.1	Integração com Linguagem de programação; <br>
- #### 13.2	Desenvolvimento de gráficos/relatórios pertinentes, juntamente com demais <br>
- #### solicitações feitas pelo professor. <br>
- #### 13.3 ANTEPROJETO VERSÃO 2
- <br>
- <br>
+ ### 14.2 Apresentação em vídeo <br>
  
+ ### 14.3 ANTEPROJETO VERSÃO FINAL <br>
+  ![Anteprojeto em .pdf](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/AnteProjeto.pdf)
  
- ### 14 Slides e Apresentação em vídeo. <br>
-     OBS: Observe as instruções relacionadas a cada uma das atividades abaixo.<br>
- #### 14.1 Slides; <br>
- #### 14.2 Apresentação em vídeo <br>
- #### 14.3 ANTEPROJETO VERSÃO FINAL
  <br>
  <br>   
 
@@ -238,16 +220,6 @@ Protótipo vs Modelo conceitual <br>
 
 #### Mastering Markdown
     https://guides.github.com/features/mastering-markdown/
-
-### OBSERVAÇÕES IMPORTANTES
-
-#### Todos os arquivos que fazem parte do projeto (Imagens, pdfs, arquivos fonte, etc..), devem estar presentes no GIT. Os arquivos do projeto vigente não devem ser armazenados em quaisquer outras plataformas.
-1. Caso existam arquivos com conteúdos sigilosos, comunicar o professor que definirá em conjunto com o grupo a melhor forma de armazenamento do arquivo.
-
-#### Todos os grupos deverão fazer Fork deste repositório e dar permissões administrativas ao usuário deste GIT, para acompanhamento do trabalho.
-
-#### Os usuários criados no GIT devem possuir o nome de identificação do aluno (não serão aceitos nomes como Eu123, meuprojeto, pro456, etc). Em caso de dúvida comunicar o professor.
-
 
 Link para BrModelo:<br>
 http://sis4.com/brModelo/brModelo/download.html
