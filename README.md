@@ -192,7 +192,7 @@ Protótipo vs Modelo conceitual <br>
 ## 14 Calendário Reverso <br>
  ![Calendário Reverso](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/CalendarioReverso.png) <br>
  
- ![Calendário Reverso](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/CalendarioReverso.pdf) <br>
+ ![Calendário Reverso em .pdf](https://github.com/Jordana-Santos/template_projeto_integrador/blob/main/arquivos/CalendarioReverso.pdf) <br>
  
  ## 14 Slides e Apresentação em vídeo. <br>
  ### 14.1 Slides; <br>
